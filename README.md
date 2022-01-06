@@ -1,6 +1,10 @@
 # algorithm_study
 
 ## 알고리즘 기초
+
+<!-- 0/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
+
 ||번호|제목|
 |--|--|--|
 ||3425|고스택|
@@ -17,6 +21,10 @@
 ||15686|치킨 배달|
 
 ## 시간 복잡도
+
+<!-- 5/11 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
+
 ||번호|제목|
 |--|--|--|
 |[✔](SS/2003.cpp)|2003|수들의 합|
@@ -32,6 +40,10 @@
 ||11003|최솟값 찾기|
 
 ## 자료구조
+
+<!-- 7/18 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/39)
+
 ||번호|제목|
 |--|--|--|
 |[✔](SS/10828.cpp)|10828|스택|
@@ -54,6 +66,10 @@
 ||2014|소수의 곱|
 
 ## 정수론
+
+<!-- 1/14 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/7)
+
 ||번호|제목|
 |--|--|--|
 |[✔](SS/1837.cpp)|1837|암호제작|
