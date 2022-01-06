@@ -67,8 +67,8 @@
 
 ## 정수론
 
-<!-- 1/14 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/7)
+<!-- 2/14 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/14)
 
 ||번호|제목|
 |--|--|--|
