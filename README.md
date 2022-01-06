@@ -67,14 +67,14 @@
 
 ## 정수론
 
-<!-- 2/14 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/14)
+<!-- 3/14 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/21)
 
 ||번호|제목|
 |--|--|--|
 |[✔](SS/1837.cpp)|1837|암호제작|
 |[✔](SS/2725.cpp)|2725|보이는 점의 개수|
-||1735|분수 합|
+|[✔](SS/1735.cpp)|1735|분수 합|
 ||14476|최대공약수 하나 빼기|
 ||3955|캔디 분배|
 ||2960|에라토스테네스의 체|
