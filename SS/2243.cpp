@@ -13,15 +13,15 @@ void update(int B, int C) {
 
 int get_candy(int B) {
     int res = 1;
+    Data[res]--;
     while(res < leaf) {
-        Data[res]--;
         res *= 2;
         if (B > Data[res]) {
             B -= Data[res];
             res++;
         }
+        Data[res]--;
     }
-    Data[res]--;
     return res - leaf + 1;
 }
 
