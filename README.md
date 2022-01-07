@@ -89,12 +89,12 @@
 
 ## 조합론
 
-<!-- 0/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
+<!-- 1/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
 
 ||번호|제목|
 |--|--|--|
-||11050|이항 계수 1|
+|[✔](SS/11050.cpp)|11050|이항 계수 1|
 ||11051|이항 계수 2|
 ||1010|다리 놓기|
 ||1256|사전|
