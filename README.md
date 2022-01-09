@@ -89,13 +89,13 @@
 
 ## 조합론
 
-<!-- 1/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
+<!-- 2/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
 
 ||번호|제목|
 |--|--|--|
 |[✔](SS/11050.cpp)|11050|이항 계수 1|
-||11051|이항 계수 2|
+|[✔](SS/11051.cpp|11051|이항 계수 2|
 ||1010|다리 놓기|
 ||1256|사전|
 ||5568|카드 놓기|
