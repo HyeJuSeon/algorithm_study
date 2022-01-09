@@ -89,8 +89,8 @@
 
 ## 조합론
 
-<!-- 2/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+<!-- 3/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/24)
 
 ||번호|제목|
 |--|--|--|
@@ -98,7 +98,7 @@
 |[✔](SS/11051.cpp)|11051|이항 계수 2|
 ||1010|다리 놓기|
 ||1256|사전|
-||5568|카드 놓기|
+|[✔](SS/5568.cpp)|5568|카드 놓기|
 ||5557|1학년|
 ||5573|산책|
 ||5569|출근 경로|
