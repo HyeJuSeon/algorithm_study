@@ -41,8 +41,8 @@
 
 ## 자료구조
 
-<!-- 8/18 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/44)
+<!-- 9/18 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
 ||번호|제목|
 |--|--|--|
