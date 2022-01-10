@@ -89,8 +89,8 @@
 
 ## 조합론
 
-<!-- 5/13 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/38)
+<!-- 6/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/46)
 
 ||번호|제목|
 |--|--|--|
@@ -100,7 +100,7 @@
 |[✔](SS/1256.cpp)|1256|사전|
 |[✔](SS/5568.cpp)|5568|카드 놓기|
 ||15686|치킨 배달|
-||5557|1학년|
+|[✔](SS/5557.cpp)|5557|1학년|
 ||5573|산책|
 ||5569|출근 경로|
 ||1722|순열의 순서|
