@@ -89,8 +89,8 @@
 
 ## 조합론
 
-<!-- 4/13 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/31)
+<!-- 5/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/38)
 
 ||번호|제목|
 |--|--|--|
