@@ -3,7 +3,6 @@
 using namespace std;
 
 #define MAXN 1000
-#define MAXM 100000
 int Parent[MAXN + 1];
 struct Data {
     int n1, n2, cost;
