@@ -110,8 +110,8 @@
 
 ## 그래프1
 
-<!-- 1/9 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/11)
+<!-- 2/9 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/22)
 
 ||번호|제목|
 |--|--|--|
