@@ -2,7 +2,6 @@
 using namespace std;
 
 #define MAXN 1000000
-#define MAXM 100000
 int Parent[MAXN];
 int find(int a) {
     if (Parent[a] == a) return a;
