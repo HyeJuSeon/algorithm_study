@@ -127,15 +127,15 @@
 
 ## 그래프2
 
-<!-- 1/8 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
+<!-- 2/8 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
 
 ||번호|제목|
 |--|--|--|
 ||11266|단절점|
 |[✔](SS/1753.cpp)|1753|최단경로|
 ||11657|타임머신|
-||11404|플로이드|
+|[✔](SS/11404.cpp)|11404|플로이드|
 ||11400|단절선|
 ||3860|할로윈 묘지|
 ||5719|거의 최단 경로|
