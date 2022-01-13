@@ -158,13 +158,13 @@
 
 ## 동적계획법1
 
-<!-- 0/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
+<!-- 1/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
 
 ||번호|제목|
 |--|--|--|
 ||7579|앱|
-||5582|공통 부분 문자열|
+|[✔](SS/5582.cpp)|5582|공통 부분 문자열|
 ||9252|LCS 2|
 ||5626|제단|
 ||2449|전구|
