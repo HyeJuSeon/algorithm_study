@@ -156,7 +156,7 @@
 ||11049|행렬 곱셈 순서|
 ||14003|가장 긴 증가하는 부분 수열 5|
 
-## 동적계획법1
+## 동적계획법2
 
 <!-- 1/12 -->
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
