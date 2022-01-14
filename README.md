@@ -158,14 +158,14 @@
 
 ## 동적계획법2
 
-<!-- 1/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
+<!-- 2/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
 
 ||번호|제목|
 |--|--|--|
 ||7579|앱|
 |[✔](SS/5582.cpp)|5582|공통 부분 문자열|
-||9252|LCS 2|
+|[✔](SS/9252.cpp)|9252|LCS 2|
 ||5626|제단|
 ||2449|전구|
 ||11062|카드 게임|
