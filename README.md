@@ -158,12 +158,12 @@
 
 ## 동적계획법2
 
-<!-- 2/13 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/15)
+<!-- 3/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/23)
 
 ||번호|제목|
 |--|--|--|
-||7579|앱|
+|[✔](SS/7579.cpp)|7579|앱|
 |[✔](SS/5582.cpp)|5582|공통 부분 문자열|
 |[✔](SS/9252.cpp)|9252|LCS 2|
 ||2517|달리기|
