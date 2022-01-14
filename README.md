@@ -158,8 +158,8 @@
 
 ## 동적계획법2
 
-<!-- 2/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+<!-- 2/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/15)
 
 ||번호|제목|
 |--|--|--|
