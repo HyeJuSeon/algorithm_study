@@ -158,19 +158,19 @@
 
 ## 동적계획법2
 
-<!-- 3/13 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/23)
+<!-- 4/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/31)
 
 ||번호|제목|
 |--|--|--|
 |[✔](SS/7579.cpp)|7579|앱|
 |[✔](SS/5582.cpp)|5582|공통 부분 문자열|
 |[✔](SS/9252.cpp)|9252|LCS 2|
+|[✔](SS/2342.cpp)|2342|Dance Dance Revolution|
 ||2517|달리기|
 ||5626|제단|
 ||2449|전구|
 ||11062|카드 게임|
-||2342|Dance Dance Revolution|
 ||2098|외판원 순회|
 ||1102|발전소|
 ||2618|경찰차|
