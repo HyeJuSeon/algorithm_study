@@ -143,8 +143,8 @@
 
 ## 동적계획법1
 
-<!-- 5/7 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/71)
+<!-- 6/7 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/86)
 
 ||번호|제목|
 |--|--|--|
@@ -153,7 +153,7 @@
 |[✔](SS/11660.cpp)|11660|구간 합 구하기 5|
 |[✔](SS/2579.cpp)|2579|계단 오르기|
 |[✔](SS/1915.cpp)|1915|가장 큰 정사각형|
-||11049|행렬 곱셈 순서|
+|[✔](SS/11049.cpp)|11049|행렬 곱셈 순서|
 ||14003|가장 긴 증가하는 부분 수열 5|
 
 ## 동적계획법2
