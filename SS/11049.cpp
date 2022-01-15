@@ -3,7 +3,7 @@
 #define INF 1000000000
 using namespace std;
 
-int DP[MAXN][MAXN];
+int DP[MAXN][MAXN]; // DP[x][y]: x ~ y까지 곱했을 떄 최소값
 int A[MAXN][2]; 
 int N;
 int dfs (int x, int y) {
