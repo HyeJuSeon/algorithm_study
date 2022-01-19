@@ -1,29 +1,28 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#define MAXN 1000000
+typedef long long ll;
 using namespace std;
 
-#define MAX 2500000 // leaf node 수 * 2
-typedef long long ll;
-
-int leaf = 1;
-ll Data[MAX];
-void update(int b, ll c) {
-    b += leaf - 1;
-    c -= Data[b];
-    while (b > 0) {
-        Data[b] += c;
-        b /= 2;
+ll IDT[3000000];
+int N, M, K, Start = 1;
+void update(int i, ll value) {
+    i += Start - 1;
+    value -= IDT[i];
+    while (i > 0) {
+        IDT[i] += value;
+        i /= 2;
     }
 }
 
 ll sum(int l, int r) {
+    l += Start - 1;
+    r += Start - 1;
     ll res = 0;
-    l += leaf - 1;
-    r += leaf - 1;
     while (l <= r) {
-        if (l % 2 == 1) res += Data[l];
-        if (r % 2 == 0) res += Data[r];
-        l = (l + 1) / 2;
-        r = (r - 1) / 2;
+        if (l % 2 == 1) res += IDT[l++];
+        if (r % 2 == 0) res += IDT[r--];
+        l /= 2;
+        r /= 2;
     }
     return res;
 }
@@ -32,17 +31,16 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int n, m, k;
-    cin >> n >> m >> k;
-    while (leaf < n) leaf *= 2;
-    for (int i = leaf; i < leaf + n; i++) cin >> Data[i];
-    for (int i = leaf - 1; i > 0; i--) Data[i] = Data[i * 2] + Data[i * 2 + 1];
-    for (int i = 0; i < m + k; i++) {
+    cin >> N >> M >> K;
+    while (Start < N) Start *= 2;
+    for (int i = Start; i < Start + N; i++) cin >> IDT[i];
+    for (int i = Start - 1; i > 0; i--) IDT[i] = IDT[i * 2] + IDT[i * 2 + 1];
+    for (int i = 0; i < M + K; i++) {
         int a, b;
         ll c;
         cin >> a >> b >> c;
         if (a == 1) update(b, c);
-        else if (a == 2) cout << sum(b, c) << '\n';
+        else cout << sum(b, c) << '\n';
     }
     return 0;
 }
