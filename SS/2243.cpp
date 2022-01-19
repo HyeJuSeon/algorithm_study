@@ -1,45 +1,43 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#define MAXC 1000000
 using namespace std;
 
-#define MAX 2500000 // 인덱스 트리 크기
-#define MAXC 1000000 // 사탕 종류
-int Data[MAX];
-int leaf = 1;
-void update(int B, int C) {
-    B += leaf - 1;
-    Data[B] += C;
-    while (B /= 2) Data[B] += C; 
+int IDT[MAXC * 3];
+int N, Start = 1;
+void update(int i, int num) {
+    i += Start - 1;
+    while (i > 0) {
+        IDT[i] += num;
+        i /= 2;
+    }
 }
 
-int get_candy(int B) {
-    int res = 1;
-    Data[res]--;
-    while(res < leaf) {
-        res *= 2;
-        if (B > Data[res]) {
-            B -= Data[res];
-            res++;
+int get(int num) {
+    int i = 1;
+    while (i < Start) {
+        i *= 2;
+        if (num > IDT[i]) {
+            num -= IDT[i];
+            i++;
         }
-        Data[res]--;
+        IDT[i]--;
     }
-    return res - leaf + 1;
+    return i - Start + 1;
 }
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int n;
-    cin >> n;
-    while (leaf < MAXC) leaf *= 2;
-    for (int i = leaf - 1; i > 0; i--) Data[i] = Data[i * 2] + Data[i * 2 + 1];
-    int A, B, C;
-    while (n--) {
-        cin >> A >> B;
-        if (A == 1) cout << get_candy(B) << '\n';
+    cin >> N;
+    while (Start < MAXC) Start *= 2;
+    int a, b, c;
+    while (N--) {
+        cin >> a >> b;
+        if (a == 1) cout << get(b) << '\n';
         else {
-            cin >> C;
-            update(B, C);
+            cin >> c;
+            update(b, c);
         }
     }
     return 0;
