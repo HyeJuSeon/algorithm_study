@@ -3,7 +3,7 @@
 typedef long long ll;
 using namespace std;
 
-ll IDT[3000000];
+ll IDT[MAXN * 3];
 int N, M, K, Start = 1;
 void update(int i, ll value) {
     i += Start - 1;
