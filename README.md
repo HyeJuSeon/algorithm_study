@@ -41,8 +41,8 @@
 
 ## 자료구조
 
-<!-- 10/18 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/56)
+<!-- 11/19 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/58)
 
 ||번호|제목|
 |--|--|--|
@@ -56,6 +56,7 @@
 |[✔](SS/3020.cpp)|3020|개똥벌레|
 |[✔](SS/2243.cpp)|2243|사탕상자|<!-- index tree 22-01-19 -->
 |[✔](SS/2504.cpp)|2504|괄호의 값|
+|[✔](SS/2268.cpp)|2268|수들의 합 7|<!-- index tree-->
 ||6416|트리인가?|
 ||5639|이진 검색 트리|
 ||4358|생태학|
