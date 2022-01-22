@@ -1,23 +1,23 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#define MAXV 20000
-#define INF 100000000
+#define MAXV 20001
+#define INF 1000000000
 using namespace std;
 
 struct Data {
     int n, w;
     Data() {};
-    Data(int n, int w) : n(n), w(w) {};
+    Data(int n, int w): n(n), w(w) {};
 
-    bool operator <(const Data other) const {
+    bool operator < (const Data other) const {
         return w > other.w;
     }
 };
 
-int D[MAXV + 1];
-vector<Data> A[MAXV + 1];
-bool Visit[MAXV + 1];
+int D[MAXV];
+bool Visit[MAXV];
+vector<Data> A[MAXV];
 int V, E, K;
 void dijkstra() {
     priority_queue<Data> pq;
@@ -31,10 +31,10 @@ void dijkstra() {
         for (int i = 0; i < A[curr.n].size(); i++) {
             int next = A[curr.n][i].n;
             int nextDist = curr.w + A[curr.n][i].w;
-            if (nextDist < D[next]) {
+            if (D[next] > nextDist) {
                 D[next] = nextDist;
                 pq.push(Data(next, nextDist));
-            } 
+            }
         }
     }
 }
@@ -45,8 +45,8 @@ int main() {
 
     cin >> V >> E >> K;
     for (int i = 1; i <= V; i++) D[i] = INF;
+    int u, v, w;
     while (E--) {
-        int u, v, w;
         cin >> u >> v >> w;
         A[u].push_back(Data(v, w));
     }
