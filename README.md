@@ -129,15 +129,16 @@
 
 ## 그래프2
 
-<!-- 4/8 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
+<!-- 5/9 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/56)
 
 ||번호|제목|
 |--|--|--|
-||11266|단절점|
+|[✔](SS/1916.cpp)|1916|최소비용 구하기|<!-- dijkstra 22-01-22-->
 |[✔](SS/1753.cpp)|1753|최단경로|<!-- dijkstra 22-01-22-->
 |[✔](SS/11657.cpp)|11657|타임머신|
 |[✔](SS/11404.cpp)|11404|플로이드|
+||11266|단절점|
 ||11400|단절선|
 ||3860|할로윈 묘지|
 |[✔](SS/5719.cpp)|5719|거의 최단 경로|<!-- dijkstra-->
