@@ -129,8 +129,8 @@
 
 ## 그래프2
 
-<!-- 8/12 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/67)
+<!-- 9/13 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/69)
 
 ||번호|제목|
 |--|--|--|
@@ -141,6 +141,7 @@
 |[✔](SS/5972.cpp)|5972|택배 배송|<!-- dijkstra-->
 |[✔](SS/11909.cpp)|11909|배열 탈출|<!-- dijkstra 메모리 초과-->
 |[✔](SS/14221.cpp)|14221|편의점|<!-- dijkstra-->
+|[✔](SS/14284.cpp)|14284|간선 이어가기 2|<!-- dijkstra-->
 ||11266|단절점|
 ||11400|단절선|
 ||3860|할로윈 묘지|
