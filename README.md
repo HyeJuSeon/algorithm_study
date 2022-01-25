@@ -129,8 +129,8 @@
 
 ## 그래프2
 
-<!-- 13/17 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/76)
+<!-- 14/18 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/78)
 
 ||번호|제목|
 |--|--|--|
