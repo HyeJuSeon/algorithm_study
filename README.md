@@ -129,8 +129,8 @@
 
 ## 그래프2
 
-<!-- 10/14 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/71)
+<!-- 11/15 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/73)
 
 ||번호|제목|
 |--|--|--|
@@ -143,6 +143,7 @@
 |[✔](SS/14221.cpp)|14221|편의점|<!-- dijkstra-->
 |[✔](SS/14284.cpp)|14284|간선 이어가기 2|<!-- dijkstra-->
 |[✔](SS/1261.cpp)|1261|알고스팟|<!-- dijkstra-->
+|[✔](SS/1504.cpp)|1504|특정한 최단 경로|<!-- dijkstra-->
 ||11266|단절점|
 ||11400|단절선|
 ||3860|할로윈 묘지|
