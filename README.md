@@ -129,8 +129,8 @@
 
 ## 그래프2
 
-<!-- 14/18 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/78)
+<!-- 15/19 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/79)
 
 ||번호|제목|
 |--|--|--|
@@ -147,6 +147,7 @@
 |[✔](SS/4485.cpp)|4485|녹색 옷 입은 애가 젤다지?|<!-- dijkstra-->
 |[✔](SS/1238.cpp)|1238|파티|<!-- dijkstra-->
 |[✔](SS/11779.cpp)|11779|최소비용 구하기 2|<!-- dijkstra-->
+|[✔](SS/2211.cpp)|2211|네트워크 복구|<!-- dijkstra-->
 ||11266|단절점|
 ||11400|단절선|
 ||3860|할로윈 묘지|
