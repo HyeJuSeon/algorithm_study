@@ -18,7 +18,7 @@ struct Data {
 int D[MAXN];
 int Visit[MAXN];
 vector<Data> A[MAXN];
-vector<int> P[MAXN];
+int P[MAXN];
 int N, M;
 void dijkstra() {
     priority_queue<Data> pq;
@@ -35,8 +35,7 @@ void dijkstra() {
             if (D[next] > nextDist) {
                 D[next] = nextDist;
                 pq.push(Data(next, nextDist));
-                P[next].clear();
-                P[next].push_back(curr.n);
+                P[next] = curr.n;
             }
         }
     }
@@ -56,6 +55,6 @@ int main() {
     fill(D, D + MAXN, INF);
     dijkstra();
     cout << N - 1 << '\n';
-    for (int i = 2; i <= N; i++) cout << i << ' ' << P[i][0] << '\n';
+    for (int i = 2; i <= N; i++) cout << i << ' ' << P[i] << '\n';
     return 0;
 }
