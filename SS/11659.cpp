@@ -1,8 +1,8 @@
 #include <iostream>
-#define MAXN 100000
+#define MAXN 100001
 using namespace std;
 
-int DP[MAXN + 1];
+int DP[MAXN];
 int N, M;
 int main() {
     ios_base::sync_with_stdio(0);
@@ -13,10 +13,10 @@ int main() {
         cin >> DP[i];
         DP[i] += DP[i - 1];
     }
+    int a, b;
     while (M--) {
-        int i, j;
-        cin >> i >> j;
-        cout << DP[j] - DP[i - 1] << '\n';
+        cin >> a >> b;
+        cout << DP[b] - DP[a - 1] << '\n';
     }
     return 0;
 }
