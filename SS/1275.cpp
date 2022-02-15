@@ -1,22 +1,22 @@
 #include <iostream>
-#define MAXN 100000
+#define MAXN 300000
 typedef long long ll;
 using namespace std;
 
-ll IDT[MAXN * 3];
-int N, Q, Start = 1;
-void update(int i, ll value) {
-    i += Start - 1;
-    value -= IDT[i];
-    while (i > 0) {
-        IDT[i] += value;
-        i /= 2;
+ll IDT[MAXN];
+int N, Q, S = 1;
+void update(int n, ll value) {
+    n += S - 1;
+    value -= IDT[n];
+    while (n > 0) {
+        IDT[n] += value;
+        n /= 2;
     }
 }
 
 ll sum(int l, int r) {
-    l += Start - 1;
-    r += Start - 1;
+    l += S - 1;
+    r += S - 1;
     ll res = 0;
     while (l <= r) {
         if (l % 2 == 1) res += IDT[l++];
@@ -32,9 +32,9 @@ int main() {
     cin.tie(0);
 
     cin >> N >> Q;
-    while (Start < N) Start *= 2;
-    for (int i = Start; i < Start + N; i++) cin >> IDT[i];
-    for (int i = Start - 1; i > 0; i--) IDT[i] = IDT[i * 2] + IDT[i * 2 + 1];
+    while (S < N) S *= 2;
+    for (int i = S; i < S + N; i++) cin >> IDT[i];
+    for (int i = S - 1; i > 0; i--) IDT[i] = IDT[i * 2] + IDT[i * 2 + 1];
     int x, y, a;
     ll b;
     while (Q--) {
