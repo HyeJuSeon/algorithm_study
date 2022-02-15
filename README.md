@@ -22,8 +22,8 @@
 
 ## 시간 복잡도
 
-<!-- 5/11 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
+<!-- 6/12 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
 ||번호|제목|
 |--|--|--|
@@ -32,6 +32,7 @@
 |[✔](SS/2748.cpp)|2748|피보나치 수2|
 ||2517|달리기|
 |[✔](SS/1806.cpp)|1806|부분합|
+|[✔](SS/2230.cpp)|2230|수 고르기|<!-- two pointer -->
 ||2096|내려가기|
 ||2143|두 배열의 합|
 |[✔](SS/1072.cpp)|1072|게임|
