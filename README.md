@@ -42,8 +42,8 @@
 
 ## 자료구조
 
-<!-- 12/20 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/60)
+<!-- 13/21 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/62)
 
 ||번호|제목|
 |--|--|--|
@@ -59,6 +59,7 @@
 |[✔](SS/2504.cpp)|2504|괄호의 값|
 |[✔](SS/2268.cpp)|2268|수들의 합 7|<!-- index tree-->
 |[✔](SS/5676.cpp)|5676|음주 코딩|<!-- index tree-->
+|[✔](SS/2357.cpp)|2357|최소값과 최대값|<!-- index tree-->
 ||6416|트리인가?|
 ||5639|이진 검색 트리|
 ||4358|생태학|
