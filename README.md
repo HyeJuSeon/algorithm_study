@@ -42,8 +42,8 @@
 
 ## 자료구조
 
-<!-- 16/24 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/67)
+<!-- 17/25 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/68)
 
 ||번호|제목|
 |--|--|--|
@@ -63,6 +63,7 @@
 |[✔](SS/10868.cpp)|10868|최솟값|<!-- index tree-->
 |[✔](SS/11505.cpp)|11505|구간 곱 구하기|<!-- index tree-->
 |[✔](SS/12837.cpp)|12837|가계부 (Hard)|<!-- index tree-->
+|[✔](SS/14428.cpp)|14428|수열과 쿼리 16|<!-- index tree-->
 ||6416|트리인가?|
 ||5639|이진 검색 트리|
 ||4358|생태학|
