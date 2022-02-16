@@ -42,8 +42,8 @@
 
 ## 자료구조
 
-<!-- 14/22 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/64)
+<!-- 15/23 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/65)
 
 ||번호|제목|
 |--|--|--|
@@ -61,6 +61,7 @@
 |[✔](SS/5676.cpp)|5676|음주 코딩|<!-- index tree-->
 |[✔](SS/2357.cpp)|2357|최소값과 최대값|<!-- index tree-->
 |[✔](SS/10868.cpp)|10868|최솟값|<!-- index tree-->
+|[✔](SS/11505.cpp)|11505|구간 곱 구하기|<!-- index tree-->
 ||6416|트리인가?|
 ||5639|이진 검색 트리|
 ||4358|생태학|
