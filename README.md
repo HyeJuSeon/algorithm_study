@@ -42,8 +42,8 @@
 
 ## 자료구조
 
-<!-- 19/27 -->
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/72)
+<!-- 10/28 -->
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/73)
 
 ||번호|제목|
 |--|--|--|
@@ -66,6 +66,7 @@
 |[✔](SS/14428.cpp)|14428|수열과 쿼리 16|<!-- index tree-->
 |[✔](SS/14438.cpp)|14438|수열과 쿼리 17|<!-- index tree-->
 |[✔](SS/18436.cpp)|18436|수열과 쿼리 37|<!-- index tree-->
+|[✔](SS/1725.cpp)|1725|히스토그램|<!-- index tree-->
 ||6416|트리인가?|
 ||5639|이진 검색 트리|
 ||4358|생태학|
