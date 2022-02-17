@@ -1,9 +1,8 @@
 #include <iostream>
-#define MAXN 1024
+#define MAXN 1025
 using namespace std;
 
-int DP[MAXN + 1][MAXN + 1];
-int Map[MAXN + 1][MAXN + 1];
+int DP[MAXN][MAXN];
 int N, M;
 int main() {
     ios_base::sync_with_stdio(0);
@@ -12,14 +11,14 @@ int main() {
     cin >> N >> M;
     for (int i = 1; i <= N; i++) {
         for (int j = 1; j <= N; j++) {
-            cin >> Map[i][j];
-            DP[i][j] = DP[i][j - 1] + DP[i - 1][j] - DP[i - 1][j - 1] + Map[i][j];
+            cin >> DP[i][j];
+            DP[i][j] += DP[i][j - 1] + DP[i - 1][j] - DP[i - 1][j - 1];
         }
     }
-    int x1, x2, y1, y2;
+    int a, b, c, d;
     while (M--) {
-        cin >> x1 >> y1 >> x2 >> y2;
-        cout << DP[x2][y2] - DP[x2][y1 - 1]- DP[x1 - 1][y2] + DP[x1 - 1][y1 - 1] << '\n';
+        cin >> a >> b >> c >> d;
+        cout << DP[c][d] - DP[a - 1][d] - DP[c][b - 1] + DP[a - 1][b - 1] << '\n';
     }
     return 0;
 }
