@@ -10,20 +10,20 @@ struct Data {
     Data() {};
     Data(int n, int w): n(n), w(w) {};
 
-    bool operator < (const Data other) const {
+    bool operator <(const Data other) const {
         return w > other.w;
     }
 };
 
-int Dist[MAXN];
-bool Visit[MAXN];
 vector<Data> A[MAXN];
 vector<int> P[MAXN];
+bool Visit[MAXN];
+int Dist[MAXN];
 int N, M, S, D;
-void dijkstra(int s) {
+void dijkstra() {
     priority_queue<Data> pq;
-    pq.push(Data(s, 0));
-    Dist[s] = 0;
+    pq.push(Data(S, 0));
+    Dist[S] = 0;
     while (!pq.empty()) {
         Data curr = pq.top();
         pq.pop();
@@ -47,19 +47,19 @@ int main() {
     cin.tie(0);
 
     cin >> N >> M;
-    int a, b, c;
     while (M--) {
+        int a, b, c;
         cin >> a >> b >> c;
         A[a].push_back(Data(b, c));
     }
     cin >> S >> D;
     fill(Dist, Dist + MAXN, INF);
-    dijkstra(S);
+    dijkstra();
     cout << Dist[D] << '\n';
-    int prev = D;
+
     vector<int> path;
-    while(1) {
-        if (prev == S) break;
+    int prev = D;
+    while (prev != S) {
         path.push_back(P[prev][0]);
         prev = P[prev][0];
     }
