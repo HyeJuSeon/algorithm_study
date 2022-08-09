@@ -24,7 +24,7 @@
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
 ||번호|제목|
-|--|--|--|--|
+|--|--|--|
 |[✔](2003.cpp)|2003|수들의 합|
 |[✔](2805.cpp)|2805|나무 자르기|
 |[✔](2748.cpp)|2748|피보나치 수2|
