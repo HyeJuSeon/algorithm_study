@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+// 치즈 
 public class boj2636 {
 	static int N, M;
 	static int[][] mat;
